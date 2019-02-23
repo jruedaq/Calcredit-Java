@@ -103,7 +103,7 @@ public class Calcredit {
 
                         JOptionPane.showMessageDialog(null, "Pago total " + String.valueOf(InteresCalculo));
                         calculoCuotaDeManejo();
-                        JOptionPane.showMessageDialog(null, "Pago total de la cuota de manejo " + String.valueOf(InteresesCalculoSinCuoMan - ValorCompraTC));
+                        JOptionPane.showMessageDialog(null, "Pago total en intereses " + String.valueOf(InteresesCalculoSinCuoMan - ValorCompraTC));
                         ValorCompraSegundoStr = String.valueOf(ValorCompraTC);
                     }
                 }
